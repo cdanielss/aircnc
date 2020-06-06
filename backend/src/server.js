@@ -11,7 +11,7 @@ const path = require("path");
 
 const app = express();
 
-mongoose.connect('mongodb+srv://@cluster0-0kwtw.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
